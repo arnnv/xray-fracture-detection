@@ -63,6 +63,5 @@ def reportPredict(dataset: List[Dict[str, str]]) -> None:
     print(Fore.BLUE + f"Status accuracy: {status_acc:.2f}%")
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-# test_dir = os.path.join(THIS_FOLDER, 'test')
-test_dir = os.path.join('Dataset/test')
+test_dir = os.path.join(THIS_FOLDER, 'test')
 reportPredict(load_path(test_dir))
