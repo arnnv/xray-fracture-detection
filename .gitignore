@@ -1,5 +1,6 @@
 # Ignore the Dataset folder
 Dataset/
+archive/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
