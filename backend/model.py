@@ -92,7 +92,7 @@ def predict_api():
 
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBilI-rs83k4ETw45lS1VYhkv2zs53X8G8")  # Use environment variables for security
+genai.configure(api_key="GEMINI_API_KEY")  # Use environment variables for security
 
 # Create the model with the required configuration
 generation_config = {
